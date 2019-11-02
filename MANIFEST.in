@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include trtaxoffices *.css
+recursive-include trtaxoffices *.csv
+recursive-include trtaxoffices *.html
+recursive-include trtaxoffices *.ico
+recursive-include trtaxoffices *.js
+recursive-include trtaxoffices *.json
+recursive-include trtaxoffices *.md
+recursive-include trtaxoffices *.png
+recursive-include trtaxoffices *.py
+recursive-include trtaxoffices *.svg
+recursive-include trtaxoffices *.txt
+recursive-exclude trtaxoffices *.pyc
