@@ -14,7 +14,8 @@
     "province_name",
     "district_name",
     "tax_office_code",
-    "tax_office_name"
+    "tax_office_name",
+    "tax_office_type"
   ],
   "fields": [
     {
@@ -59,9 +60,15 @@
       "in_list_view": 1,
       "label": "Tax Office Name",
       "reqd": 1
+    },
+    {
+      "fieldname": "tax_office_type",
+      "fieldtype": "Link",
+      "label": "Tax Office Type",
+      "options": "TR Tax Office Type"
     }
   ],
-  "modified": "2019-11-03 14:49:26.963132",
+  "modified": "2019-11-03 20:25:41.068770",
   "modified_by": "Administrator",
   "module": "Trtaxoffices",
   "name": "TR Tax Offices",
