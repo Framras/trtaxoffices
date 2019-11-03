@@ -1,0 +1,98 @@
+{
+  "allow_import": 1,
+  "allow_rename": 1,
+  "autoname": "format:{tax_office_name} ({province_name})",
+  "creation": "2019-11-03 14:47:31.209273",
+  "doctype": "DocType",
+  "document_type": "Setup",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "country_name",
+    "disabled",
+    "province_code",
+    "province_name",
+    "district_name",
+    "tax_office_code",
+    "tax_office_name"
+  ],
+  "fields": [
+    {
+      "fieldname": "country_name",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Country Name",
+      "options": "Country",
+      "reqd": 1
+    },
+    {
+      "default": "0",
+      "fieldname": "disabled",
+      "fieldtype": "Check",
+      "label": "Disabled"
+    },
+    {
+      "fieldname": "province_code",
+      "fieldtype": "Data",
+      "label": "Province Code"
+    },
+    {
+      "fieldname": "province_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Province",
+      "reqd": 1
+    },
+    {
+      "fieldname": "district_name",
+      "fieldtype": "Data",
+      "label": "District"
+    },
+    {
+      "fieldname": "tax_office_code",
+      "fieldtype": "Data",
+      "label": "Code"
+    },
+    {
+      "fieldname": "tax_office_name",
+      "fieldtype": "Data",
+      "in_list_view": 1,
+      "label": "Tax Office Name",
+      "reqd": 1
+    }
+  ],
+  "modified": "2019-11-03 14:49:26.963132",
+  "modified_by": "Administrator",
+  "module": "Trtaxoffices",
+  "name": "TR Tax Offices",
+  "name_case": "UPPER CASE",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    },
+    {
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "All",
+      "share": 1
+    }
+  ],
+  "quick_entry": 1,
+  "show_name_in_global_search": 1,
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "track_changes": 1
+}
