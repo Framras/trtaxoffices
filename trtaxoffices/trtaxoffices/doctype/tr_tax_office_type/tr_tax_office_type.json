@@ -1,51 +1,61 @@
 {
-  "autoname": "field:type_abbreviation",
-  "creation": "2019-11-03 15:35:37.173538",
-  "doctype": "DocType",
-  "editable_grid": 1,
-  "engine": "InnoDB",
-  "field_order": [
-    "tax_office_type",
-    "type_abbreviation"
-  ],
-  "fields": [
-    {
-      "fieldname": "tax_office_type",
-      "fieldtype": "Data",
-      "in_list_view": 1,
-      "label": "Tax Office Type",
-      "reqd": 1
-    },
-    {
-      "fieldname": "type_abbreviation",
-      "fieldtype": "Data",
-      "in_list_view": 1,
-      "label": "Abbreviation",
-      "reqd": 1,
-      "unique": 1
-    }
-  ],
-  "modified": "2019-11-03 15:35:37.173538",
-  "modified_by": "Administrator",
-  "module": "Trtaxoffices",
-  "name": "TR Tax Office Type",
-  "owner": "Administrator",
-  "permissions": [
-    {
-      "create": 1,
-      "delete": 1,
-      "email": 1,
-      "export": 1,
-      "print": 1,
-      "read": 1,
-      "report": 1,
-      "role": "System Manager",
-      "share": 1,
-      "write": 1
-    }
-  ],
-  "quick_entry": 1,
-  "sort_field": "modified",
-  "sort_order": "DESC",
-  "track_changes": 1
+ "_comments": "[]",
+ "_liked_by": "[]",
+ "autoname": "field:type_abbreviation",
+ "creation": "2019-11-03 15:35:37.173538",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "country_name",
+  "tax_office_type",
+  "type_abbreviation"
+ ],
+ "fields": [
+  {
+   "fieldname": "tax_office_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tax Office Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type_abbreviation",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Abbreviation",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "country_name",
+   "fieldtype": "Link",
+   "label": "Country Name",
+   "options": "Country",
+   "reqd": 1
+  }
+ ],
+ "modified": "2019-11-09 16:25:56.556476",
+ "modified_by": "Administrator",
+ "module": "Trtaxoffices",
+ "name": "TR Tax Office Type",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
 }
