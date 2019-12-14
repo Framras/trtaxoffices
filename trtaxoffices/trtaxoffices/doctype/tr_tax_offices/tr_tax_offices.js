@@ -5,7 +5,7 @@ frappe.ui.form.on('TR Tax Offices', {
 	// refresh: function(frm) {
 	initiate_integration: function(frm){
         frappe.call({
-            method: "tr_tax_offices.api.initiate_in_words",
+            method: "trtaxoffices.api.initiate_in_words",
             args:{
             },
             callback: function(r){
