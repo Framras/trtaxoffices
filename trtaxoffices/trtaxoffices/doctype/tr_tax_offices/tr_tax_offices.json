@@ -8,14 +8,15 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "country_name",
-  "disabled",
-  "province_code",
-  "province_name",
-  "district_name",
-  "tax_office_code",
-  "tax_office_name",
-  "tax_office_type"
+   "country_name",
+   "disabled",
+   "province_code",
+   "province_name",
+   "district_name",
+   "tax_office_code",
+   "tax_office_name",
+   "tax_office_type",
+   "tr_language"
  ],
  "fields": [
   {
@@ -57,29 +58,34 @@
   {
    "fieldname": "tax_office_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Tax Office Name",
-   "reqd": 1
+    "in_list_view": 1,
+    "label": "Tax Office Name",
+    "reqd": 1
   },
-  {
-   "fieldname": "tax_office_type",
-   "fieldtype": "Link",
-   "label": "Tax Office Type",
-   "options": "TR Tax Office Type",
-   "reqd": 1
-  }
+   {
+     "fieldname": "tax_office_type",
+     "fieldtype": "Link",
+     "label": "Tax Office Type",
+     "options": "TR Tax Office Type",
+     "reqd": 1
+   },
+   {
+     "fieldname": "tr_language",
+     "fieldtype": "Button",
+     "label": "tr_language"
+   }
  ],
- "modified": "2019-11-03 20:41:47.083082",
- "modified_by": "Administrator",
- "module": "Trtaxoffices",
- "name": "TR Tax Offices",
- "name_case": "UPPER CASE",
- "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
+  "modified": "2019-12-14 21:07:48.287717",
+  "modified_by": "Administrator",
+  "module": "Trtaxoffices",
+  "name": "TR Tax Offices",
+  "name_case": "UPPER CASE",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
    "export": 1,
    "print": 1,
    "read": 1,
