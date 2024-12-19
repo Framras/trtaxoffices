@@ -109,8 +109,6 @@
       "width": null
     }
   ],
-  "custom_perms": [],
   "doctype": "Lead",
-  "property_setters": [],
   "sync_on_migrate": 1
 }

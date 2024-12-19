@@ -65,9 +65,6 @@
    "width": null
   }
  ],
- "custom_perms": [],
  "doctype": "Purchase Receipt",
- "links": [],
- "property_setters": [],
  "sync_on_migrate": 1
 }
