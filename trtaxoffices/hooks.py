@@ -126,3 +126,10 @@ app_license = "MIT"
 # override_doctype_dashboards = {
 # 	"Task": "trtaxoffices.task.get_dashboard_data"
 # }
+
+# Fixtures
+# ---------------
+
+fixtures = [
+    "TR Tax Office Type", "TR Tax Offices"
+]
