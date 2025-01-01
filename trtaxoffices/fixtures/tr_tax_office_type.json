@@ -1,1 +1,29 @@
-[]
+[
+ {
+  "country_name": "Turkey",
+  "docstatus": 0,
+  "doctype": "TR Tax Office Type",
+  "modified": "2025-01-01 15:55:19.944384",
+  "name": "V.D.Baş.",
+  "tax_office_type": "Vergi Dairesi Başkanlığı",
+  "type_abbreviation": "V.D.Baş."
+ },
+ {
+  "country_name": "Turkey",
+  "docstatus": 0,
+  "doctype": "TR Tax Office Type",
+  "modified": "2025-01-01 15:55:43.411571",
+  "name": "Malmüd.",
+  "tax_office_type": "Malmüdürlüğü",
+  "type_abbreviation": "Malmüd."
+ },
+ {
+  "country_name": "Turkey",
+  "docstatus": 0,
+  "doctype": "TR Tax Office Type",
+  "modified": "2025-01-01 15:55:56.983415",
+  "name": "V.D.",
+  "tax_office_type": "VERGİ DAİRESİ",
+  "type_abbreviation": "V.D."
+ }
+]
